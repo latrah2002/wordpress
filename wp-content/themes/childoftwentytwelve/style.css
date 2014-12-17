@@ -1,0 +1,30 @@
+/*
+
+The Theme Name: Child of Twenty Twelve
+Description: Cool child theme base on Twenty Twelve
+Author: Lateef
+Version: 0.0.1
+Template: twentytwelve
+
+1.714285714
+
+*/
+
+@import url('../twentytwelve/style.css');
+
+body.custom-font-enabled {
+font-family: Georgia, Times New Roman, Times, Serif;
+}
+
+
+
+
+.entry-content img, .comment-content img, .widget img, img.header-image, .author-avatar img, img.wp-post-image {
+border-radius: 0px;
+box-shadow: none;
+}
+
+.entry-content p, .entry-summary p, .comment-content p, .mu_register p {
+margin: 0 0 24px;
+margin: 0 0 3.428571428rem;
+}
