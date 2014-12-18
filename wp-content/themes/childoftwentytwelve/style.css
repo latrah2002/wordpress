@@ -12,6 +12,11 @@ Template: twentytwelve
 
 @import url('../twentytwelve/style.css');
 
+
+.main-navigation {
+background: hsl(20%, 20%, 19%);
+}
+
 body.custom-font-enabled {
 font-family: Georgia, Times New Roman, Times, Serif;
 }
